@@ -1,0 +1,306 @@
+@media (max-width: 1440px) {}
+
+@media (max-width: 1320px) {
+    .header_slider .header_slider_image img {
+        display: none;
+    }
+
+    .courses_flexer .courses_texts {
+        display: none;
+    }
+
+    .offer_flexer .offer_image {
+        display: none;
+    }
+
+    .offer_flexer .offer_texts img {
+        display: block;
+    }
+
+    .offer_flexer .offer_texts .offer_title {
+        margin-bottom: 40px;
+    }
+
+    .exam_flexer .exam_texts img {
+        display: block;
+    }
+
+    .exam_flexer .exam_image img {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1290px) {
+    .contact_stuff_flexer .stuffs {
+        display: none;
+    }
+
+    .contact_stuff_flexer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .courses_flexer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1170px) {}
+
+@media (max-width: 1140px) {}
+
+@media (max-width: 1024px) {}
+
+/* tab */
+@media (max-width: 992px) {}
+
+@media (max-width: 850px) {
+    .header_nav .header_list {
+        display: none;
+    }
+
+    .header_nav .dropdown {
+        display: block;
+    }
+
+    .header .header_nav {
+        padding: 38px 20px;
+        background: #FFF;
+        display: flex;
+        gap: 260px;
+    }
+
+    .header .header_nav .header_line {
+        display: block;
+        background: #FFF;
+        box-shadow: 0px 4px 8px 0px rgba(200, 200, 200, 0.25);
+    }
+
+    .footer {
+        width: 850px;
+    }
+}
+
+/* mobile */
+@media (max-width: 768px) {}
+
+@media (max-width: 734px) {
+
+    .header_slider {
+        background: transparent;
+        transform: translateX(10px);
+    }
+
+    .header_slider_flexer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header_slider .header_slider_flexer .header_slider_texts .slider_title {
+        width: 300px;
+        font-size: 32px;
+        color: var(--gray1, #333);
+    }
+
+    .header_slider .header_slider_flexer .header_slider_texts .slider_desc {
+        width: 589px;
+        font-size: 18px;
+        color: var(--gray2, #404040);
+    }
+
+    .header_slider .header_slider_flexer .header_slider_texts img {
+        display: block;
+        width: 549px;
+        height: 460px;
+    }
+
+    .header_slider .header_slider_flexer .header_slider_texts .slider_button_1 {
+        margin-top: 20px;
+        border-radius: 5px;
+        border: 1px solid var(--light-0F756B, #0F756B);
+        background: #FFF;
+        color: var(--light-0F756B, #0F756B);
+        font-size: 20px;
+        padding: 20px 80px;
+    }
+
+    .header_slider .header_slider_flexer .header_slider_texts .slider_button_2 {
+        padding: 20px 80px;
+        color: #FFF;
+        font-size: 20px;
+        background: var(--deep-1B353D, #1B353D);
+    }
+
+    .header_slider .header_slider_flexer .header_slider_texts .slider_desc_2 {
+        display: block;
+    }
+
+    .main .Enroll_for_course_title .title {
+        font-size: 30px;
+        width: 310px;
+    }
+
+    .contact_get .contact_desc {
+        width: 100%;
+    }
+
+    .courses_flexer .courses_of_form {
+        transform: translateX(-30px);
+    }
+
+    .contact_stuff_flexer .form_of_control {
+        transform: translateX(-70px);
+    }
+}
+
+@media (max-width: 684px) {}
+
+@media (max-width: 667px) {
+    .courses_flexer .courses_of_form {
+        transform: translateX(-50px);
+    }
+}
+
+/* mobile < 576  */
+@media (max-width: 576px) {
+
+
+    .courses_flexer .courses_of_form {
+        box-shadow: none;
+        margin-left: 50px;
+    }
+
+    .courses_flexer .courses_of_form .form_courses {
+        width: 440px;
+        transform: translateX(70px) translateY(-100px);
+    }
+
+    .courses_flexer .courses_of_form .form_courses .title {
+        display: none;
+    }
+
+    .courses_flexer .courses_of_form .form_courses .submit {
+        width: 530px;
+        transform: translateX(-140px);
+    }
+
+    .main .Enroll_for_course_title {
+        width: 320px;
+        transform: translateY(-40px) translateX(40px);
+    }
+
+    .main .Enroll_for_course_title .title {
+        font-size: 30px;
+    }
+
+    .offer_title_what {
+        width: 320px;
+        transform: translateY(-200px);
+
+    }
+
+    .offer_title_what .title {
+        font-size: 35px;
+    }
+
+    .offer {
+        transform: translateY(-200px);
+    }
+
+    .offer_flexer .offer_texts {
+        transform: translateX(-10px);
+    }
+
+    .offer_flexer .offer_texts img {
+        width: 500px;
+        border-radius: 15px;
+        margin: 40px 30px;
+    }
+
+    .offer_flexer .offer_texts .offer_button {
+        margin-left: 300px;
+        font-size: 19px;
+    }
+
+    .exam_title {
+        transform: translateY(-150px) translateX(-20px);
+    }
+
+    .exam_flexer .exam_texts {
+        transform: translateX(-10px) translateY(-100px);
+    }
+
+    .exam_flexer .exam_texts img {
+        width: 500px;
+        border-radius: 15px;
+        margin: 40px 30px;
+    }
+
+    .exam_flexer .exam_texts .exam_button {
+        margin-left: 300px;
+        font-size: 19px;
+    }
+
+    .notable_instructors {
+        width: 600px;
+        transform: translateX(90px) translateY(-60px);
+    }
+
+    .instructor_flexer {
+        width: 500px;
+        transform: translateX(140px) translateY(-50px);
+    }
+
+    .contact_get {
+        transform: translateX(70px);
+    }
+
+    .contact_get .contact_desc {
+        width: 390px;
+        letter-spacing: -0.17px;
+    }
+
+    .footer_flexer .footer_address {
+        margin-top: 30px;
+    }
+
+    .footer {
+        width: 800px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact_get {
+        transform: translateX(250px);
+    }
+
+    .contact_stuff_flexer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contact_stuff_flexer .stuffs {
+        display: block;
+        margin-top: 100px;
+        transform: translateX(-70px);
+    }
+
+    .contact_stuff_flexer .form_of_control .form_contact_button {
+        width: 505px;
+        transform: translateY(30px);
+    }
+
+
+}
+
+@media (max-width: 412px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 320px) {}
