@@ -73,7 +73,7 @@
         padding: 38px 20px;
         background: #FFF;
         display: flex;
-        gap: 260px;
+
     }
 
     .header .header_nav .header_line {
@@ -170,6 +170,9 @@
 /* mobile < 576  */
 @media (max-width: 576px) {
 
+    .contact_dominant .contact_get {
+        transform: translateX(100px);
+    }
 
     .courses_flexer .courses_of_form {
         box-shadow: none;
@@ -202,7 +205,6 @@
     .offer_title_what {
         width: 320px;
         transform: translateY(-200px);
-
     }
 
     .offer_title_what .title {
@@ -296,6 +298,206 @@
         transform: translateY(30px);
     }
 
+    .header_nav .header_image_link img {
+        width: 50px;
+    }
+
+    .header_slider {
+        transform: translateX(-80px);
+    }
+
+    .header_slider .header_slider_flexer .header_slider_texts .slider_title {
+        font-size: 32px;
+        width: 250px;
+    }
+
+    .header_slider .header_slider_flexer .header_slider_texts .slider_desc {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .header_slider .header_slider_flexer .header_slider_texts img {
+        width: 270px;
+        height: 250px;
+    }
+
+    .header_slider .header_slider_flexer .header_slider_texts .slider_desc_2 {
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .header_slider .header_slider_flexer .header_slider_texts .slider_button_1 {
+        padding: 20px 20px;
+        cursor: pointer;
+    }
+    .header_slider .header_slider_flexer .header_slider_texts .slider_button_2 {
+        padding: 20px 15px;
+        cursor: pointer;
+    }
+
+    .main .Enroll_for_course_title .title {
+        font-size: 24px;
+        transform: translateX(-30px);
+    }
+
+    .courses_flexer .courses_of_form .form_courses {
+        transform: translateX(-170px) translateY(-130px);
+    }
+
+    .courses_flexer .courses_of_form .form_courses input {
+        width: 250px;
+    }
+
+    .courses_flexer .courses_of_form .form_courses .submit {
+        padding: 20px 20px;
+        width: 250px;
+    }
+
+    .offer_title_what .title{
+        transform: translateY(-50px) translateX(-10px);
+        font-size: 25px;
+    }
+
+    .offer_flexer .offer_texts {
+        transform: translateX(-80px) translateY(-40px);
+    }
+
+    .offer_flexer .offer_texts .offer_title {
+        font-size: 24px;
+    }
+
+    .offer_flexer .offer_texts .offer_slogan {
+        font-size: 24px;
+        width: 290px;
+    }
+
+    .offer_flexer .offer_texts img {
+        width: 270px;
+        height: 250px;
+        transform: translateX(-30px);
+    }
+
+    .offer_flexer .offer_texts .offer_desc {
+        width: 270px;
+    }
+
+    .offer_flexer .offer_texts .offer_button {
+        transform: translateX(-240px);
+        padding: 20px 20px;
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .exam_title .title {
+        font-size: 30px;
+        transform: translateX(-60px) translateY(-70px);
+    }
+
+    .exam_flexer .exam_texts {
+        transform: translateY(-250px) translateX(-65px);  
+    }
+
+    .exam_flexer .exam_texts .exam_titles {
+        font-size: 24px;
+        transform: translateX(-20px);
+    }
+
+    .exam_flexer .exam_texts .exam_slogan {
+        font-size: 28px;
+        width: 280px;
+        transform: translateX(-20px);
+    }
+
+    .exam_flexer .exam_texts img {
+        width: 270px;
+        height: 250px;
+        transform: translateX(-47px);
+    }
+
+    .exam_flexer .exam_texts .exam_desc {
+        font-size: 17px;
+        width: 270px;
+    }
+
+    .exam_flexer .exam_texts .exam_button {
+        transform: translateX(-240px);
+        padding: 20px 20px;
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .notable_instructors .notable_title {
+        font-size: 30px;
+        transform: translateX(-235px) translateY(-140px);
+    }
+
+    .instructor_flexer {
+        transform: translateX(-100px) translateY(-200px);
+        display: flex;
+        padding: 0px 90px;
+    }
+
+    .instructor_flexer .instruc_texts .intruc_job {
+        font-size: 12px;
+    }
+
+    .instructor_flexer .instruc_texts .instruc_name {
+        font-size: 20px;
+    }
+
+    .contact_dominant .contact_get {
+        transform: translateX(-3px) translateY(-150px);
+    }
+
+    .contact_dominant .contact_get .contact_title {
+        font-size: 32px;
+    }
+
+    .contact_dominant .contact_get .contact_desc {
+        font-size: 17px;
+        width: 270px;
+    }
+
+    .contact_stuff_flexer {
+        transform: translateX(-120px) translateY(-140px);
+    }
+
+    .contact_stuff_flexer .form_of_control .form_contact input {
+        width: 270px;
+        padding: 0 0 0 15px;
+    }
+
+    .contact_stuff_flexer .form_of_control .form_contact .area {
+        width: 270px;
+        padding: 15px 0 0 15px;
+    }
+
+    .contact_stuff_flexer .form_of_control .form_contact .form_contact_button {
+        width: 270px;
+    }
+
+    .contact_stuff_flexer .stuffs {
+        width: 280px;
+    }
+
+    .footer .footer_flexer {
+        transform: translateX(-240px);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_flexer .footer_address {
+        transform: translateX(-25px);
+    }
+
+    .footer_flexer .footer_address .footer_desc {
+        width: 250px;
+    }
+
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
 
 }
 
