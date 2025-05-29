@@ -94,7 +94,7 @@
 
     .header_slider {
         background: transparent;
-        transform: translateX(10px);
+        transform: translateX(20px);
     }
 
     .header_slider_flexer {
@@ -303,7 +303,7 @@
     }
 
     .header_slider {
-        transform: translateX(-80px);
+        transform: translateX(-50px);
     }
 
     .header_slider .header_slider_flexer .header_slider_texts .slider_title {
@@ -335,27 +335,36 @@
         cursor: pointer;
     }
 
+    .main .courses {
+        transform: translateX(35px);
+    }
+
     .main .Enroll_for_course_title .title {
         font-size: 24px;
-        transform: translateX(-30px);
+        transform: translateX(15px);
     }
 
     .courses_flexer .courses_of_form .form_courses {
         transform: translateX(-170px) translateY(-130px);
+        text-align: center;
     }
 
     .courses_flexer .courses_of_form .form_courses input {
-        width: 250px;
+        width: 310px;
     }
 
     .courses_flexer .courses_of_form .form_courses .submit {
         padding: 20px 20px;
-        width: 250px;
+        width: 310px;
     }
 
     .offer_title_what .title{
-        transform: translateY(-50px) translateX(-10px);
+        transform: translateY(-50px) translateX(30px);
         font-size: 25px;
+    }
+
+    .main .offer {
+        margin-left: 30px;
     }
 
     .offer_flexer .offer_texts {
@@ -388,9 +397,13 @@
         font-size: 15px;
     }
 
+    .main .exam {
+        margin-left: 30px;
+    }
+
     .exam_title .title {
         font-size: 30px;
-        transform: translateX(-60px) translateY(-70px);
+        transform: translateX(20px) translateY(-70px);
     }
 
     .exam_flexer .exam_texts {
@@ -428,7 +441,11 @@
 
     .notable_instructors .notable_title {
         font-size: 30px;
-        transform: translateX(-235px) translateY(-140px);
+        transform: translateX(-200px) translateY(-140px);
+    }
+
+    .main .instructors {
+        margin-left: 50px;
     }
 
     .instructor_flexer {
@@ -459,25 +476,25 @@
     }
 
     .contact_stuff_flexer {
-        transform: translateX(-120px) translateY(-140px);
+        transform: translateX(-100px) translateY(-140px);
     }
 
     .contact_stuff_flexer .form_of_control .form_contact input {
-        width: 270px;
+        width: 310px;
         padding: 0 0 0 15px;
     }
 
     .contact_stuff_flexer .form_of_control .form_contact .area {
-        width: 270px;
+        width: 310px;
         padding: 15px 0 0 15px;
     }
 
     .contact_stuff_flexer .form_of_control .form_contact .form_contact_button {
-        width: 270px;
+        width: 310px;
     }
 
     .contact_stuff_flexer .stuffs {
-        width: 280px;
+        width: 310px;
     }
 
     .footer .footer_flexer {
